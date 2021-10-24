@@ -1,0 +1,57 @@
+body{
+    background-image: url("https://dic.academic.ru/pictures/wiki/files/71/Grasslands-menggu.JPG");
+    background-size: cover;
+}
+.mainn{
+    justify-content: center;
+    display: flex;
+}
+.bastyk{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(64, 97, 119, 0.781);
+}
+button{
+    background-color: rgb(172, 64, 64);    
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
+.knopkaDiv :hover {
+    background-color: red;
+    color: black;   
+}
+.bastyk{
+    border-radius: 20px;
+    padding-top: 50px;
+    display: block;
+}
+.bastyk div{
+    margin-bottom: 10px;
+    /* margin-top: 5px; */
+}
+
+
+@media(max-width: 700px){
+    .bastyk{
+        align-items: center;
+
+        width: 483px;
+    }
+    .dene{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 480px;
+    }
+    body{
+        background-image: url("https://dic.academic.ru/pictures/wiki/files/71/Grasslands-menggu.JPG");
+        background-size:auto;
+    }
+    .heddder{
+        width: 100%;
+    }
+}

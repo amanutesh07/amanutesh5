@@ -1,0 +1,45 @@
+.body{
+    background-color: rgb(192, 153, 93);
+}
+.bbb{
+    color: hsl(0,0%,100%);
+    justify-content: center;
+    display: flex;
+}
+.content {
+    padding-left: 50px;
+  width: 800px;
+  font-family: "Times", serif;
+  }
+
+.fio::after,.email::after,.goods::after,.date::after, .number::after{
+  content:"*";
+  color:rgba(255,0,0,3);
+}
+.bottom1,.bottom2{
+   background: SteelGray;
+   font-size: 10pt;
+   border-radius: 5px;
+   border: 1px solid SteelGray;
+   padding: 10px 10px;
+   width: 100px;
+  font-weight:bold;
+   }
+.guest {
+  width: 380px;
+  height: 30px;
+  /* border: 1px solid LightGrey; */
+}
+
+.buySh{
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    color: wheat;
+    background-color: rgb(107, 107, 226);
+}
+.buyShDiv :hover {
+    color: black;
+    background-color: red;
+}

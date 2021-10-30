@@ -1,0 +1,274 @@
+.search{
+    margin-top: 30px;
+    align-items: center;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    background-color: rgb(107, 107, 226);
+    /* border-radius: 25px; */
+
+    color: white;
+     /*color: white; */
+}
+.search button{
+    color: white;
+    /* border-radius: 15px; */
+}
+.first{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 153, 33);
+    height: 100px;
+}
+.heead{
+    height: 40px;
+    background-color: rgb(209, 131, 14);
+}
+.fffisr{
+    /* background-color: rgb(209, 131, 14); */
+    float: right;
+    margin-right: 50px;
+}
+.fffisr a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+.body{
+    background-color: rgb(238, 234, 234);
+}
+.h111{
+    text-align: center;
+}
+
+.sortirovkaPo{
+    text-align: center;
+}
+.sortirovkaPo *{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(29, 23, 23);
+}
+.sh1{
+    margin-left: 40px;
+    width: 550px;
+}
+.sheeps{
+    margin-top: 20px;
+    background-color: beige;
+    width: 750px;
+    justify-content: center;
+    display: flex;
+    border: 2px solid rgb(104, 101, 101);
+    padding-bottom: 15px;
+}
+
+.all{
+    justify-content: center;
+    display: flex;
+}
+.buySh{
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-right: 50px;
+    float: right;
+    color: wheat;
+    background-color: rgb(107, 107, 226);
+}
+.buyShDiv :hover {
+    color: black;
+    background-color: red;
+}
+.sht1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.pages {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.p {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.p a {
+    background-color: rgb(233, 153, 33);
+    color: white;
+    font-weight: bold;
+    padding: 10px 16px;
+    text-decoration: none;
+    border: 2px solid beige;
+    margin: 0 4px;
+    border-radius: 25px;
+}
+.last *{
+    margin-left: 80px;
+    margin-top: 15px;
+}
+.last{
+    justify-content: center;
+    display: flex;
+    color: white;
+    /* height: 200px; */
+    background-color: rgb(66, 62, 62);
+}
+
+.tablitsa{
+    padding-top: 40px;
+    width: 800px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.ttbdiv{
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 40px; */
+    /* align-items: center; */
+}
+.ttbdiv  tr, td {
+    border: 1px solid black;
+}
+
+@media(max-width: 700px){
+    .fffisr{
+        /* padding-left: 40px; */
+        /* padding: auto; */
+        /* background-color: rgb(209, 131, 14); */
+        justify-content: center;
+        display: flex;
+        /* float: inline-end; */
+        /* margin-left: 60px; */
+        
+    }
+    .heead{
+        justify-content: center;
+        display: flex;
+        height: 60px;
+        width: 480px;
+        
+        align-items: center;
+    }
+    .fffisr{
+        /* background-color: rgb(209, 131, 14); */
+        float: right;
+        margin-right: 0px;
+    }
+
+    .first{
+        width: 480px;
+    }
+    .search{
+        margin-top: 30px;
+        align-items: center;
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        background-color: rgb(107, 107, 226);
+        /* border-radius: 25px; */
+    
+        color: white;
+         /*color: white; */
+    }
+
+
+    .all{
+        display: block;
+        width: 480px;
+        
+    }
+    .sheeps{
+        height: 550px;
+        display: block;
+        width: 480px;
+    }
+
+    .buySh{
+        font-weight: bold;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        margin-right: 50px;
+        float: right;
+        color: wheat;
+        background-color: rgb(107, 107, 226);
+    }
+    .sh1{
+        margin-left: 15px;
+        width: 460px;
+    }
+
+    .tablitsa{
+        padding-top: 40px;
+        width: 800px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .ttbdiv{
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        /* padding-bottom: 40px; */
+        /* align-items: center; */
+    }
+
+    .last *{
+        
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .last{
+        width: 480px;
+        justify-content: center;
+        display: flex;
+        color: white;
+        /* height: 200px; */
+        background-color: rgb(66, 62, 62);
+    }
+
+
+    .pages {
+        width: 480px;
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .p {
+        display: inline-block;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .p a {
+        background-color: rgb(233, 153, 33);
+        color: white;
+        font-weight: bold;
+        padding: 10px 16px;
+        text-decoration: none;
+        border: 2px solid beige;
+        margin: 0 4px;
+        border-radius: 25px;
+    }
+}

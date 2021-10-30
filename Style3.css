@@ -1,0 +1,102 @@
+body{
+    background-image: url("https://dic.academic.ru/pictures/wiki/files/71/Grasslands-menggu.JPG");
+    background-size: cover;
+}
+.bir{
+    justify-content: center;
+    display: flex;
+}
+.mmains{
+    justify-content: center;
+    display: flex;
+    background-color:rgb(226, 223, 223);
+    padding-left: 80px;
+    padding-top: 30px;
+    margin-top: 50px;
+    /* background-color: rgba(255, 255, 255, 0.925); */
+    width: 1000px;
+}
+.eki{
+    justify-content: center;
+    display: flex;
+}
+.ekiV{
+    text-align: center;
+    align-items: center;
+    background-color:rgb(226, 223, 223);
+    width: 1000px;
+    /* height: 2300px; */
+}
+
+.uusu{
+    width: 500px; margin-left: 10px;
+}
+
+
+.buySh{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    color: wheat;
+    background-color: rgb(107, 107, 226);
+}
+.buyShDiv :hover {
+    color: black;
+    background-color: red;
+}
+
+.suretWidth{
+    width: 600px;
+}
+
+@media(max-width: 700px){
+    .mmains{
+        
+        display: block;
+        background-color:rgb(226, 223, 223);
+        padding-left: 50px;
+        padding-top: 30px;
+        margin-top: 50px;
+        /* background-color: rgba(255, 255, 255, 0.925); */
+        width: 485px;
+    }
+    .ekiV{
+        text-align: center;
+        align-items: center;
+        background-color:rgb(226, 223, 223);
+        width: 483px;
+        /* height: 2300px; */
+    }
+
+
+    .uusu{
+        width: 400px; margin-left: 10px;
+    }
+    img{
+        /* padding-left: 10px; */
+    }
+    .suretWidth{
+        width: 400px;
+    }
+    .ekiV p {
+        padding-left: 50px;
+        margin-left: 20px;
+        /* text-align: center; */
+        /* align-items: center; */
+        width: 400px;
+    }
+    .surett{
+        width: 400px;
+    }
+
+    .hh1 video{
+        width: 480px;
+    }
+    .vvidddeo{
+        padding-left: 50px;
+        /* width: 350px; */
+    }
+}
